@@ -14,6 +14,7 @@ Python
 Run the following command to execute the file
 
 python main.py 5
+
 5 -> days which needs to be passed
 
 Sample test case: 
