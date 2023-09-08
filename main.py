@@ -66,6 +66,7 @@ if __name__ == "__main__":
     days = int(sys.argv[1])
     if days < 4:
         raise Exception("No of days cannot be less than 4 according to given problem statement")
+  
     obj = Graduation(days)
-    print(obj.get_probability_of_missing_graduation_ceremony())
-    print(obj.get_no_of_ways_to_attend_class())
+    
+    print(f"The solution is: {obj.get_probability_of_missing_graduation_ceremony()}/{obj.get_no_of_ways_to_attend_class()}")
